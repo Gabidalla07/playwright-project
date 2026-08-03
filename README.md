@@ -23,8 +23,9 @@ playwright-project/
 │   ├── products.js
 │   └── users.js
 │
+├── fixtures/
+│
 ├── pages/
-│   ├── BasePage.js
 │   ├── LoginPage.js
 │   ├── InventoryPage.js
 │   └── CartPage.js
@@ -35,6 +36,9 @@ playwright-project/
 │   └── cart.spec.js
 │
 ├── utils/
+│   └── BasePage.js
+│
+├── screenshots/
 │
 ├── playwright.config.js
 ├── package.json
