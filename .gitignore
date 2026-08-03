@@ -1,8 +1,14 @@
-
-# Playwright
+# Dependências
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+
+# Relatórios do Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Screenshots gerados automaticamente
+screenshots/
+
+# Cache e autenticação
+playwright/.cache/
+playwright/.auth/
