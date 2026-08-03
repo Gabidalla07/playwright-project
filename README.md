@@ -19,13 +19,22 @@ Automatizar os principais fluxos de uma aplicação web de demonstração utiliz
 ```text
 playwright-project/
 │
+├── data/
+│   ├── products.js
+│   └── users.js
+│
 ├── pages/
+│   ├── BasePage.js
 │   ├── LoginPage.js
+│   ├── InventoryPage.js
 │   └── CartPage.js
 │
 ├── tests/
 │   ├── login.spec.js
+│   ├── login-invalido.spec.js
 │   └── cart.spec.js
+│
+├── utils/
 │
 ├── playwright.config.js
 ├── package.json
